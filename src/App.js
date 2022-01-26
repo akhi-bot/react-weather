@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 const api = {
-  key: "2e2dce9f3baa8bad918e42683fae3480",
+  key: process.env.REACT_APP_WEATHER_KEY,
   base: "http://api.openweathermap.org/data/2.5/",
 };
 
@@ -79,7 +79,6 @@ function App() {
         </div>
         {typeof weather.main !== "undefined" ? (
           <>
-          {console.log(weather.main)}
             <div className="location-box">
               <div className="location">
                 {weather.name},{weather.sys.country}
