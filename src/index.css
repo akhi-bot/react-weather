@@ -9,6 +9,8 @@ body{
   background-image: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   background-color: rgb(127, 200, 218);
   background-blend-mode:luminosity;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -23,9 +25,8 @@ body{
   background-position: bottom;
   transition: 0.4s ease-out;
   width: 411px;
-  height: 723px;
+  height: 100vh;
   margin: 0 auto;
-  box-shadow: -3px -5px 5px rgba(255,255,255, 0.2)
 }
 
 
